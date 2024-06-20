@@ -1,1 +1,47 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Public Sans", sans-serif; /*Weights: 300, 400, 700*/
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--grayish-blue);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--grayish-blue);
+    font-size: 1rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}

@@ -102,24 +102,29 @@ div#header-bg {
 }
 
 div#section1-bg {
-    background: rgba(255, 99, 71, 0.384) url("../images/bg-intro-desktop.svg") right top no-repeat scroll;
-    background-size: contain;
+    background: var(--very-light-gray);
     position: relative;
     height: 440px;
     overflow: hidden;
-    
 }
 
 .section1 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 5px;
-    background: rgba(255, 255, 0, 0.432);
-    
 }
 
 .s1-d1 {
     width: 50%;
+    background: rgba(255, 99, 71, 0.384);
+}
+
+.img-bg-s1 {
+    position: absolute;
+    width: 550px;
+    height: 650px;
+    top: -35%;
+    left: 65%;
 }
 
 .img-celular {
@@ -128,5 +133,6 @@ div#section1-bg {
     top: -20%;
     width: 500px;
     height: 650px;
+    z-index: 1;
 }
 

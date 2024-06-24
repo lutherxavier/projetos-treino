@@ -86,7 +86,7 @@ div#header-bg {
     border-bottom: 3px solid var(--bright-cyan);
 }
 
-.button-header {
+.button {
     background: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
     font-family: inherit;
     font-size: 0.9rem;
@@ -97,7 +97,7 @@ div#header-bg {
     cursor: pointer;
 }
 
-.button-header:hover {
+.button:hover {
     opacity: 0.6;
 }
 
@@ -115,8 +115,19 @@ div#section1-bg {
 }
 
 .s1-d1 {
-    width: 50%;
-    background: rgba(255, 99, 71, 0.384);
+    width: 40%;
+    margin-top: 80px;
+}
+
+.s1-d1 h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--dark-blue);
+    margin-bottom: 20px;
+}
+
+.s1-d1 p {
+    margin-bottom: 20px;
 }
 
 .img-bg-s1 {
@@ -135,4 +146,124 @@ div#section1-bg {
     height: 650px;
     z-index: 1;
 }
+
+div#section2-bg {
+    background: var(--light-grayish-blue);
+    padding: 30px 0;
+}
+
+.section2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 5px;
+}
+
+.section2 h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--dark-blue);
+    margin-bottom: 20px;
+}
+
+.section2 > p {
+    margin-bottom: 20px;
+}
+
+.s2-container-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s2-item {
+    flex: 1 1 250px;
+    max-width: 300px;
+    margin: 20px 20px 20px 0;
+}
+
+.s2-container-items div:last-child {
+    margin-right: 0;
+}
+
+.s2-item img, .s2-item h3, .s2-item p {
+    padding: 15px 0;
+}
+
+.s2-item h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--dark-blue);
+}
+
+div#section3-bg {
+    background-color: var(--very-light-gray);
+    padding: 30px 0;
+}
+
+.section3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 5px;
+}
+
+.section3 h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--dark-blue);
+    margin-bottom: 20px;
+}
+
+.section3 > p {
+    margin-bottom: 20px;
+}
+
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.art-item {
+    flex: 1 1 250px;
+    max-width: 300px;
+    margin: 20px 20px 20px 0;
+    border-radius: 7px;
+    background: var(--white);
+}
+
+.articles-container article:last-child {
+    margin-right: 0;
+}
+
+.art-item img {
+    width: 100%;
+    height: 40%;
+    border-radius: 7px 7px 0 0;
+}
+
+.art-content {
+    padding: 25px;
+    padding-bottom: 0;
+}
+
+.art-content p, .art-content h3 {
+    margin: 10px 0;
+}
+
+.art-content p {
+    margin-bottom: 0;
+}
+
+.art-autor {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.art-content h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--dark-blue);
+}
+
+
+
+
 

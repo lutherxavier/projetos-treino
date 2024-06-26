@@ -1,10 +1,6 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 600px) {
-    .section1 {
-        background: tomato;
-    }
-
     span#icon-menu {
         display: block;
     }
@@ -15,6 +11,34 @@
 
     button#btn-header {
         display: none;
+    }
+
+    .img-bg-s1, .img-celular {
+        display: none;
+    }
+
+    button#btn-s1 {
+        margin: 40px auto 0 auto;
+    }
+
+    .section1 {
+        background: url("../images/bg-intro-desktop.svg") right center no-repeat scroll;
+        background-size: cover;
+    }
+
+    .s1-d1 {
+        max-width: 100%;
+    }
+
+    .s1-d1 h1 {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .s1-d1 p {
+        width: 90%;
+        margin: 50px auto 0 auto;
+        text-align: center;
     }
 
     .s2-container-items, .articles-container, .footer-content {
@@ -33,8 +57,107 @@
     .s2-item h3, .s2-item p {
         text-align: center;
     }
+
+    .social-medias ul {
+        justify-content: center;
+    }
+
+    .footer-menu ul {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .register {
+        justify-content: center;
+    }
+
+    .register button {
+        margin: 30px 0;
+        align-self: center;
+    }
+
+    .register p {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
-    
+    span#icon-menu {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    button#btn-header {
+        display: none;
+    }
+
+    .s2-container-items, .articles-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .s2-item, .art-item {
+        max-width: 300px;
+    }
+
+    .s2-item img {
+        margin: 0 auto;
+    }
+
+    .s2-item h3, .s2-item p {
+        text-align: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .social-medias ul {
+        justify-content: center;
+    }
+
+    .footer-menu ul {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .register {
+        justify-content: center;
+    }
+
+    .register button {
+        margin: 30px 0;
+        align-self: center;
+    }
+
+    .register p {
+        text-align: center;
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1110px) {
+    .s2-container-items, .articles-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .s2-item, .art-item {
+        max-width: 300px;
+        margin: 10px auto;
+    }
+
+    .s2-item img {
+        margin: 0 auto;
+    }
+
+    .s2-item h3, .s2-item p {
+        text-align: center;
+    }
 }

@@ -178,7 +178,6 @@ div#section2-bg {
 .s2-item {
     flex: 1 1 250px;
     margin: 10px;
-    border: 1px solid red;
 }
 
 .s2-item img, .s2-item h3, .s2-item p {
@@ -221,7 +220,6 @@ div#section3-bg {
 .art-item {
     flex: 1 1 250px;
     margin: 10px;
-    border: 1px solid red;
     border-radius: 7px;
     background: var(--white);
 }

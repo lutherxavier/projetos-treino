@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+    .section1 {
+        background: tomato;
+    }
+
+    span#icon-menu {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    button#btn-header {
+        display: none;
+    }
+
+    .s2-container-items, .articles-container, .footer-content {
+        flex-direction: column;
+    }
+
+    .s2-item, .art-item {
+        max-width: 300px;
+        margin: 10px auto;
+    }
+
+    .s2-item img {
+        margin: 0 auto;
+    }
+
+    .s2-item h3, .s2-item p {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    
+}

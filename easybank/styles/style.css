@@ -82,6 +82,10 @@ div#header-bg {
     border-bottom: 3px solid var(--lime-green);
 }
 
+span#icon-menu {
+    display: none;
+}
+
 .button {
     background: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
     font-family: inherit;
@@ -220,10 +224,6 @@ div#section3-bg {
     border: 1px solid red;
     border-radius: 7px;
     background: var(--white);
-}
-
-.articles-container article:last-child {
-    margin-right: 0;
 }
 
 .art-item img {

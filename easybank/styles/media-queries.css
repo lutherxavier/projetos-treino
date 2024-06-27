@@ -3,6 +3,37 @@
 @media screen and (max-width: 600px) {
     span#icon-menu {
         display: block;
+        cursor: pointer;
+        font-size: 28px;
+        padding: 5px;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        background: var(--dark-blue);
+    }
+
+    .mobile-menu ul li {
+        padding: 0.3rem 0;
+        
+    }
+
+    .mobile-menu ul li a {
+        color: var(--grayish-blue);
+        font-weight: 500;
+        display: block;
+        padding: 10px;
+    }
+
+    .mobile-menu ul li a:hover {
+        color: var(--lime-green);
+    }
+
+    .open {
+        display: block;
     }
 
     nav {
@@ -83,6 +114,37 @@
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
     span#icon-menu {
+        display: block;
+        cursor: pointer;
+        font-size: 28px;
+        padding: 5px;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        background: var(--dark-blue);
+    }
+
+    .mobile-menu ul li {
+        padding: 0.3rem 0;
+        
+    }
+
+    .mobile-menu ul li a {
+        color: var(--grayish-blue);
+        font-weight: 500;
+        display: block;
+        padding: 10px;
+    }
+
+    .mobile-menu ul li a:hover {
+        color: var(--lime-green);
+    }
+
+    .open {
         display: block;
     }
 

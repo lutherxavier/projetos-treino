@@ -86,6 +86,14 @@ span#icon-menu {
     display: none;
 }
 
+span#icon-close {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
 .button {
     background: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
     font-family: inherit;

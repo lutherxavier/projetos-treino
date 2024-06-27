@@ -23,9 +23,19 @@
                     <li><a href="#">Careers</a></li>
                 </ul>
             </nav>
-            <span id="icon-menu" class="material-symbols-outlined">menu</span>
+            <span id="icon-menu" class="material-symbols-outlined" onclick="showMenu()">menu</span>
+            <span id="icon-close" class="material-symbols-outlined">close</span>
             <button type="button"  id="btn-header" class="button">Request Invite</button>
         </header>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
     </div>
 
     <div id="section1-bg">
@@ -143,5 +153,19 @@
 
     </footer>
 
+
+    <script>
+        function showMenu() {
+            let mobileMenu = document.querySelector(".mobile-menu");
+            if (mobileMenu.classList.contains("open")) {
+                mobileMenu.classList.remove("open");
+                document.querySelector("#icon-menu").innerText = "menu";
+                
+            } else {
+                mobileMenu.classList.add("open");
+                document.querySelector("#icon-menu").innerText = "close";
+            }
+        }
+    </script>
 </body>
 </html>

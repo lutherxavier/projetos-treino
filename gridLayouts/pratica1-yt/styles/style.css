@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+div#estrutura {
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+        "header header header header header header"
+        ".      main   main   main   sidebar   ."
+        ".      main   main   main   sidebar   ."
+        ".      aside1 aside1 aside2 aside2   ."
+        "footer footer footer footer footer  footer"
+    ;
+    gap: 5px;
+}
+
+.header {
+    grid-area: header;
+    background: #89CEED;
+    padding: 10px;
+}
+
+.main {
+    grid-area: main;
+    background: #FF7F51;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: #4268E2;
+}
+
+.aside1 {
+    grid-area: aside1;
+    background: #633196;
+}
+
+.aside2 {
+    grid-area: aside2;
+    background: #633196;
+}
+
+.footer {
+    grid-area: footer;
+    background: #89CEED;
+}
